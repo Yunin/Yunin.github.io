@@ -1,0 +1,1 @@
+import{g as t,j as e,f as a,q as r}from"./common-eab4a3e3.js";const o='{"title":"归档","frontmatter":{"page":true,"date":"2021-05-31","title":"归档","describe":"归档"},"relativePath":"docs.md","lastUpdated":1622518904259.866}';var s={};s.render=function(o,s,d,n,c,i){const l=r("Docs",!0);return a(),t("div",null,[e(l)])};export default s;export{o as __pageData};
