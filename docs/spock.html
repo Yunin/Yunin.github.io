@@ -9,8 +9,8 @@
     <meta name="description" content="A VitePress site">
     <link rel="stylesheet" href="/_assets/style.af03966a.css">
     <link rel="modulepreload" href="/_assets/common-eab4a3e3.js">
-    <link rel="modulepreload" href="/_assets/docs_spock.md.b4038de4.lean.js">
-    <link rel="modulepreload" href="/_assets/app.cadd8816.js">
+    <link rel="modulepreload" href="/_assets/docs_spock.md.583c48d8.lean.js">
+    <link rel="modulepreload" href="/_assets/app.e3b8c6fb.js">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="keywords" content="亭山的个人博客">
     <link rel="icon" href="/favicon.ico">
@@ -309,7 +309,7 @@ Class ThirdPartyDemo{
     }
 }
 </code></pre></div><blockquote><p><strong>Note</strong>:</p><p><code>1*thirdParty.call(r)</code> 中 1 代表执行的次数， 二“*” 代表条件相等</p></blockquote><h3 id="五、小结"><a class="header-anchor" href="#五、小结" aria-hidden="true">#</a> 五、小结</h3><h4 id="_1-spock的优点"><a class="header-anchor" href="#_1-spock的优点" aria-hidden="true">#</a> 1. spock的优点</h4><ul><li><p>遵循BDD模式、功能强大、语义规范、可读性好、易于维护、富有表现力</p></li><li><p>更灵活的控制测试行为，专注代码的逻辑测试而不是书写语法上</p></li><li><p>用自然语言描述测试步骤（非技术人员也能看懂测试用例）</p></li><li><p>兼容mock框架，可以和项目中的java单测代码共存, 降低迁移成本</p></li><li><p>IDE支持良好</p></li><li><p>Groovy动态语言，DSL，语法简洁，约定优于配置，适合敏捷开发</p></li></ul><h4 id="_2-spock的缺点"><a class="header-anchor" href="#_2-spock的缺点" aria-hidden="true">#</a> 2. spock的缺点</h4><h5 id="_1-学习成本"><a class="header-anchor" href="#_1-学习成本" aria-hidden="true">#</a> 1.学习成本</h5><p>spock本身没什么学习成本，因为它的限制条件不多：必须有至少一个标签、有when必有then...</p><p>主要是groovy语言，如果用过的会觉得很容易，其实真的很容易，只要你会java，就会groovy！</p><p>groovy还有一个特点就是你可以在spock的单测代码里完全用java代码写，因为groovy完全兼容java语法，</p><p>或者java和groovy混着写都没问题，因为最终都是编译成class执行的，JVM虚拟机不关心源文件是什么语言。</p><p>(其实groovy的用途很广,像我们的Jenkins里的pipeline, Elasticsearch, hadoop框架中很多插件都是使用groovy开发的)</p><h5 id="_2-单测代码执行时间问题"><a class="header-anchor" href="#_2-单测代码执行时间问题" aria-hidden="true">#</a> 2.单测代码执行时间问题</h5><p>groovy语法的简洁可以简单理解为语法糖(其实不完全是，在jvm中执行使用的是invokeDynamic指令)，</p><p>语法糖会相应的增加jvm构建AST语法树的时间，大家在运行的时候可能会注意到spock代码的编译</p><p><strong>要比java的单测代码慢一些</strong>(视代码复杂度而言，平均大概慢1-2s)，但是执行的时间和java的差不多，</p><p>如果对这个有要求，<strong>慎重使用</strong>, 最好自己实际验证下</p><h5 id="_3-spock不支持java的静态-final方法的mock-关于这一点在上面第三章已经讲过"><a class="header-anchor" href="#_3-spock不支持java的静态-final方法的mock-关于这一点在上面第三章已经讲过" aria-hidden="true">#</a> 3. Spock不支持Java的静态,final方法的mock, 关于这一点在上面第三章已经讲过,</h5><p>因为官网的解释不能马上解决目前我们单测的现状, 所以再引入power mock,</p><p>不过大部分项目组应该都使用过power mock</p><p>另外，有时候你觉得你的代码很难写单元测试，说明代码写的不是很好，需要去关注代码本身的逻辑，设计是否合理，</p><p>一步步去重构你的代码，让你的代码变得容易测试。因为<strong>代码的可测试性也是一个衡量代码质量的很重要的标准!</strong></p><p>spock只是个工具，如果用它都无法解决你的单测case, 那我觉得应该把更多的注意力放在被测代码的设计上</p><p>当然肯定也有spock无法解决的场景, 只不过使用spock相对其他工具而言会轻松很多。</p><p>Spock不能保证让你爱上写单测, 但至少不会让你反感 ☺</p><div id="gitalk-container"></div></div><div class="links-wrapper"><div class="prev-link"><!----></div><div class="next-link"><!----></div></div><footer class="page-edit"><!----></footer><!--[--><!--]--></div></main></div><!----><!--]--></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"README.md\":\"02cf514e\",\"docs.md\":\"6ba72984\",\"index.md\":\"9c41a6dc\",\"tags.md\":\"370a9b6b\",\"docs_spock.md\":\"b4038de4\"}")</script>
-    <script type="module" async src="/_assets/app.cadd8816.js"></script>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"README.md\":\"01c0cd57\",\"docs.md\":\"084eafe4\",\"index.md\":\"c2c8fa68\",\"tags.md\":\"53ac6fd1\",\"docs_spock.md\":\"583c48d8\"}")</script>
+    <script type="module" async src="/_assets/app.e3b8c6fb.js"></script>
   </body>
 </html>

@@ -1,1 +1,0 @@
-import{g as t,j as e,f as a,q as r}from"./common-eab4a3e3.js";const s='{"title":"分类","frontmatter":{"page":true,"date":"2021-05-31","title":"分类","describe":"分类"},"relativePath":"tags.md","lastUpdated":1622518904259.866}';var o={};o.render=function(s,o,n,d,i,l){const m=r("Tags",!0);return a(),t("div",null,[e(m)])};export default o;export{s as __pageData};
