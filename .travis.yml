@@ -6,6 +6,7 @@ cache:
   directories:
     - node_modules
 script:
+  - yarn install
   - yarn build
 branch: master
 # Here is the magic part
