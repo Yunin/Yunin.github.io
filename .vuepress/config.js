@@ -1,7 +1,7 @@
 module.exports = {
     "title": "Yunin blog",
     "description": "Blog",
-    "dest": "public",
+    "dest": "dist",
     "head": [
         [
             "link",

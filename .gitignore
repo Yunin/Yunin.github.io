@@ -1,6 +1,6 @@
 node_modules
 *.html
-public
+dist
 .vscode
 yarn.lock
 package-lock.json
