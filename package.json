@@ -1,0 +1,15 @@
+{
+    "name": "Yunin",
+    "version": "1.0.0",
+    "author": "Yunin",
+    "scripts": {
+        "dev": "vuepress dev . --open --host \"localhost\"",
+        "build": "vuepress build ."
+    },
+    "devDependencies": {
+        "markdown-it-plantuml-ex": "^1.0.0",
+        "vuepress": "^1.8.2",
+        "vuepress-theme-reco": "1.6.6"
+    },
+    "description": "Blog"
+}
