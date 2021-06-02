@@ -2,3 +2,5 @@ node_modules
 *.html
 public
 .vscode
+yarn.lock
+package-lock.json
