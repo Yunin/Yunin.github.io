@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: To be next
+heroText: To BE NEXT
 tagline: Starting .....
 # heroImage: /hero.png
 # heroImageStyle: {
