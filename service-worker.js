@@ -127,7 +127,7 @@ self.__precacheManifest = [
   },
   {
     "url": "categories/Design/index.html",
-    "revision": "46d33bbeb0c9ca32f7b8bad4e4f8929d"
+    "revision": "7f7d5a62846e4448ba15bc5d514612a9"
   },
   {
     "url": "categories/index.html",
@@ -135,11 +135,11 @@ self.__precacheManifest = [
   },
   {
     "url": "categories/Java/index.html",
-    "revision": "a4cafcab89dda7c94215f4cb9b8852ae"
+    "revision": "b526f8224d525917c2b06a898fa17f5f"
   },
   {
     "url": "categories/Tool/index.html",
-    "revision": "37fa965c47f69f5a67bcec32401ddae7"
+    "revision": "c5cf41e7e13d2983c05d24426a18dce2"
   },
   {
     "url": "docs/tuma.html",
@@ -151,7 +151,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "be1670458589de8c198141a9b77e36e1"
+    "revision": "2266d1a5824bd17df43156c438c31b5e"
   },
   {
     "url": "logo.png",
@@ -159,23 +159,23 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/Design/index.html",
-    "revision": "be8d4097675d3d8a05a685bd88aa7749"
+    "revision": "d6054947ecafe86288254e0183aec7f8"
   },
   {
     "url": "tag/index.html",
-    "revision": "09d98131f6c3d08b1fc2defc5d4f646f"
+    "revision": "533c08d8f056aca0a64b7743bf5aae83"
   },
   {
     "url": "tag/Java/index.html",
-    "revision": "d3c4e83cbe8f7b21ce1e14a605ad1080"
+    "revision": "520c4c403d119fe84f1d005bf1a6553a"
   },
   {
     "url": "tag/Test/index.html",
-    "revision": "d57f21369338ae43aaec9da91c5b9073"
+    "revision": "21433ef29737377ce3d964074eaf14a1"
   },
   {
     "url": "tag/Tool/index.html",
-    "revision": "eba53d321f96166f6f0f0f0438db23ba"
+    "revision": "c2303e5afbb409b6c0491871d4f0647b"
   },
   {
     "url": "timeline/index.html",
