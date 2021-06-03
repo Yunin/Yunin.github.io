@@ -188,7 +188,7 @@ Class ThirdParty{
 
 项目代码使用场景
 
-```
+```java
 @Component
 Class ThirdPartyDemo{
 	@Autowired
@@ -204,7 +204,7 @@ Class ThirdPartyDemo{
 
 测试用例
 
-```
+```java
 class ThirdPartyDemoSpec extends Specification {
     def "DoSomeThing"() {
         given:
@@ -263,7 +263,7 @@ Class ThirdParty{
 
 项目代码使用场景
 
-```
+```java
 @Component
 Class ThirdPartyDemo{
 	@Autowired
@@ -279,7 +279,7 @@ Class ThirdPartyDemo{
 
 测试用例
 
-```
+```java
 class ThirdPartyMultiConditionDemoSpec extends Specification {
     def "DoSomeThing"() {
         given:
@@ -386,7 +386,7 @@ class StaticClassDemoSpec extends Specification {
 
 第三方代码
 
-```
+```java
 Class ThirdParty{
 	public void call(R r){
 		.....
@@ -396,7 +396,7 @@ Class ThirdParty{
 
 项目代码使用场景
 
-```
+```java
 @Component
 Class ThirdPartyDemo{
 @Autowired
@@ -411,7 +411,7 @@ Class ThirdPartyDemo{
 
 测试用例
 
-```
+```java
 class ThirdPartyDemoExceptionSpec extends Specification {
     def "DoSomeThing"() {
         given:
@@ -432,13 +432,13 @@ class ThirdPartyDemoExceptionSpec extends Specification {
 
 >**Note**:
 >
->then 标签里直接标明throw exception ，并且指定exception类型，以及校验异常信息
+>``1*thirdParty.call(r)`` 中 1 代表执行的次数， 二“*” 代表条件相等
 
 #### 5. 异常情况用法
 
 项目代码使用场景
 
-```
+```java
 @Component
 Class ThirdPartyDemo{
 
@@ -451,7 +451,7 @@ Class ThirdPartyDemo{
 
 测试用例
 
-```
+```java
 class ThirdPartyVoidSpec extends Specification {
     def "DoSomeThing"() {
         given:
@@ -476,7 +476,7 @@ class ThirdPartyVoidSpec extends Specification {
 
 >**Note**:
 >
->``1*thirdParty.call(r)`` 中 1 代表执行的次数， 二“*” 代表条件相等
+>then 标签里直接标明throw exception ，并且指定exception类型，以及校验异常信息
 
 ### 五、小结
 

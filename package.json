@@ -13,10 +13,14 @@
         "@vuepress/plugin-pwa": "^1.8.2",
         "markdown-it-plantuml-ex": "^1.0.0",
         "vuepress": "^1.8.2",
+        "vuepress-plugin-auto-sidebar": "^2.2.3",
+        "vuepress-plugin-flexsearch": "^0.2.0",
         "vuepress-theme-reco": "1.6.6"
     },
     "description": "Blog",
     "dependencies": {
+        "vuepress-plugin-cat": "^1.0.3",
+        "vuepress-plugin-code-copy": "^1.0.6",
         "vuepress-plugin-mygitalk": "^1.0.5"
     }
 }
