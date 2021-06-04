@@ -6,5 +6,6 @@ module.exports = {
             breaks: true
         });
         md.use(require("markdown-it-plantuml-ex"));
+        md.use(require("markdown-it-disable-url-encode"));
     },
 };

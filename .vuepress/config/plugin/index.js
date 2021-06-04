@@ -60,5 +60,9 @@ module.exports = [
         }
     }],
     ['vuepress-plugin-code-copy', true],
-    ["vuepress-plugin-cat"]
+    ["vuepress-plugin-cat"],
+    ['permalink-pinyin', {
+        lowercase: true, // Converted into lowercase, default: true
+        separator: '-' // Separator of the slug, default: '-'
+    }]
 ];
