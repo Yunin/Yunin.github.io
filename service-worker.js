@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "b4797f5ac7a71b25aaeff133fd215bc6"
+    "revision": "b5a681c8bc241b8bfd27488a6a9021d8"
   },
   {
     "url": "assets/css/0.styles.1eb03091.css",
@@ -70,7 +70,7 @@ self.__precacheManifest = [
     "revision": "883c6cb1c7b10855dcce78f370f4196f"
   },
   {
-    "url": "assets/js/14.604d9a74.js",
+    "url": "assets/js/14.3abfc232.js",
     "revision": "50a86133287aec1cb27a1a931abfbe5e"
   },
   {
@@ -110,8 +110,8 @@ self.__precacheManifest = [
     "revision": "6087f0e823a548c941142d4205358d0e"
   },
   {
-    "url": "assets/js/app.87a2dc73.js",
-    "revision": "e66d526d14a33b9194491d617223633e"
+    "url": "assets/js/app.cade9c2b.js",
+    "revision": "245d061a9aed89f1c7c9f70a7678b5d9"
   },
   {
     "url": "avatar.png",
@@ -119,35 +119,35 @@ self.__precacheManifest = [
   },
   {
     "url": "blogs/design/flit.html",
-    "revision": "a41d90408ef1172ce80b88be025aff2b"
+    "revision": "b73019700775a3b73362ae1580184c47"
   },
   {
     "url": "blogs/design/room-name_design.html",
-    "revision": "7f62dd508a261415446e37b65aa2ead2"
+    "revision": "963461b5018858e217ae3ab1cb2258fa"
   },
   {
-    "url": "blogs/tools/spock.html",
-    "revision": "e9e396642252c3e7f0ddb7f04fc188b9"
+    "url": "blogs/tools/spockce-shi-kuang-jia-shi-yong-zhi-bei.html",
+    "revision": "aeab462b9c1a0ceb9567c7d0aa40d552"
   },
   {
     "url": "categories/Design/index.html",
-    "revision": "4b457ae6e2ba7917fdf562dc47ffb5ca"
+    "revision": "5548135b665f8113ddd1e11cc97e0977"
   },
   {
     "url": "categories/index.html",
-    "revision": "d2d84fcc5bca967c2f54ccca92430b65"
+    "revision": "0e652c073c0ad0c4e3fc17477e9c594b"
   },
   {
     "url": "categories/Java/index.html",
-    "revision": "37fd9a6aff4519ea9b299bf380b1bc47"
+    "revision": "f6392bb781c388a896c2977895f83adf"
   },
   {
     "url": "categories/Tool/index.html",
-    "revision": "43ad74f8ed0e039650a6ae7015793c84"
+    "revision": "ea60d16048e674bbaaa5907e06246259"
   },
   {
     "url": "docs/tuma.html",
-    "revision": "37891c0430dea7b47b275bc4014cb8f0"
+    "revision": "c4b1cedeedd823bfded0f5c2b3eda3fb"
   },
   {
     "url": "hero.png",
@@ -155,7 +155,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "add95cb2f070df38c919ef700d440f99"
+    "revision": "9f68c5e9ba18031d8787e3ffd6fbed7c"
   },
   {
     "url": "logo.png",
@@ -163,27 +163,27 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/Design/index.html",
-    "revision": "3ecf95755e3c8909f69f14a11797bdea"
+    "revision": "5be7e910f77aa641f5e6c21966fac500"
   },
   {
     "url": "tag/index.html",
-    "revision": "58cc12286864ac70acfd3abc5d5b5652"
+    "revision": "34bff855a6790183e90e93ffcc85a1d7"
   },
   {
     "url": "tag/Java/index.html",
-    "revision": "e9e70eb260faebdc888f7957ed389562"
+    "revision": "5d43254027256690868ba6607043415e"
   },
   {
     "url": "tag/Test/index.html",
-    "revision": "eac3b0bb12f8bb3f5305bd646aeeebba"
+    "revision": "24ebadf1f720c66120e895efe18911bb"
   },
   {
     "url": "tag/Tool/index.html",
-    "revision": "1ba350743ac54ebbb55044d5b656cc0d"
+    "revision": "c6a1ce4c5ad010cda04470b8bdb4735d"
   },
   {
     "url": "timeline/index.html",
-    "revision": "eb363fce065411dcbc1f10066464a285"
+    "revision": "57cdb6854d1758085ffa600addc99165"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
